@@ -20,6 +20,7 @@ app.get("/", (req, res) => {
 
 app.get("/profile", isLoggedIn, async (req, res) => {
   let user = await userModel.findOne({ email: req.user.email }).populate({ path: "posts", model: "Post" });
+  if (!user) return res.redirect("/login");
   res.render("profile", { user });
 });
 
