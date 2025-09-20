@@ -1,6 +1,6 @@
 # PostHub
 
-A simple and responsive social media web application where users can create an account, share posts, and interact with content. The project is built with a Node.js and Express.js backend, uses MongoDB for data storage, and features a clean, responsive frontend styled with Tailwind CSS.
+A responsive social media web application where users can create an account, share posts, and interact with content. The project is built with a Node.js and Express.js backend, uses MongoDB for data storage, and features a clean, responsive frontend styled with Tailwind CSS.
 
 ## Features
 
